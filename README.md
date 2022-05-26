@@ -24,3 +24,11 @@ git config --global user.email "fischl.j@protonmail.com"
 git config --global user.name "fischlj"
 ```
 
+- 自动更新git项目的功能
+```
+在 ~/.zshrc 文件中加上 alias auto_git="python3 ~/git/.config/fischl/auto_git.py"
+然后 source ~/.zshrc
+先store设置密码保存，然后手动git push 一下，保存密码
+最后测试一下在命令行输入: auto_git 体验
+```
+
